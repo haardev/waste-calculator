@@ -17,3 +17,13 @@ app.get('/result', function (req, res) {
 
     res.send(result);
 });
+
+app.post('/result', function (req, res) {
+    const result = {
+        data : {
+            id: '1231'
+        }
+    };
+
+    res.send(result);
+});
